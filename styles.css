@@ -60,7 +60,7 @@ body {
 }
 
 .question-container {
-  height: 200px;
+  height: 205px;
   display: none;
   flex-direction: column;
   justify-content: center;

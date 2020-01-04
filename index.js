@@ -2,6 +2,7 @@ var questionField = document.getElementById('question-field');
 var questionButton = document.getElementById('question-button');
 var eightBall = document.getElementById('eight-ball');
 var questionCont = document.getElementById('question-cont');
+var clearButton = document.getElementById('clear-button');
 
 var responses = ['It is certain.',
 "It is decidedly so.",
@@ -44,4 +45,10 @@ questionButton.addEventListener('click', () => {
   <p class='question'>"${question}"</p>
   <p class='response'>${response}</p>
   `
+})
+
+clearButton.addEventListener('click', () => {
+  clearButton.disabled = true;
+  eightBall.style.display = 'inline';
+  questionCont.style.display = 'none';
 })
