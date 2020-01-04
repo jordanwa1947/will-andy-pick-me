@@ -9,12 +9,13 @@
   <body>
     <h1 class="page-title">Will Andy pick me?</h1>
     <main>
-      <section class="guess-section">
-        <form class="guess-form">
-          <input type="text" placeholder="Ask your question here!">
-          <button type="button" disabled>Get your answer</button>
+      <section class="question-section">
+        <form class="question-form">
+          <input id="question-field" type="text" placeholder="Ask your question here!">
+          <button id="question-button" type="button" disabled>Get your answer</button>
         </form>
-        <img class="magic-eight-ball" src="./assets/eight-ball.png">
+        <img id="eight-ball" class="magic-eight-ball" src="./assets/eight-ball.png">
+        <div id="question-cont" class="question-container"></div>
         <div class="clear-button-cont">
           <button class="clear-field-bttn" type="button" disabled> Clear </button>
         </div>
@@ -22,4 +23,5 @@
       <img class="woody" src="./assets/woody.png">
     </main>
   </body>
+  <script src="./index.js" type="text/javascript"></script>
 </html>
