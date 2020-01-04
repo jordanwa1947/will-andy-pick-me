@@ -40,6 +40,7 @@ questionButton.addEventListener('click', () => {
   questionField.value = '';
   eightBall.style.display = 'none';
   clearButton.disabled = false;
+  questionButton.disabled = true;
   questionCont.style.display = 'flex';
   questionCont.innerHTML = `
   <p class='question'>"${question}"</p>
