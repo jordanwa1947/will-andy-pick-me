@@ -10,3 +10,74 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page-title {
+  font-family: 'Life Savers';
+  color: rgb(50 78 124);
+  font-size: 2.5em;
+}
+
+.guess-section {
+  width: 450px;
+  margin: auto;
+  background-color: #E6ECF4;
+  display: inline-block;
+}
+
+.guess-form > input {
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin: 10px auto 5px;
+  color: #2B4E80;
+  text-align: center;
+  font-size: 1.1em;
+  border: none;
+}
+
+.guess-form > button {
+  width: 90%;
+  height: 30px;
+  background-color: #2B4E80;
+  font-size: 1.1em;
+  color: white;
+  border: none;
+}
+
+.guess-form > button:disabled {
+  background-color: #607AA0;
+}
+
+.magic-eight-ball {
+  height: 120px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.clear-button-cont {
+  width: 100%;
+  text-align: right;
+}
+
+.clear-field-bttn {
+  background-color: #DE4841;
+  height: 22px;
+  margin: 15px;
+  color: white;
+  font-size: 0.8em;
+}
+
+.clear-field-bttn:disabled {
+  background-color: #D0CDCD;
+}
+
+.woody {
+  height: 333px;
+  position: relative;
+  top: 23px;
+}
