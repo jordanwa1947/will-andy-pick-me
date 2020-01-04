@@ -69,7 +69,9 @@ body {
 .question {
   font-size: 1.1em;
   font-style: italic;
-  margin-bottom: 5px;
+  margin: 10px auto 5px;
+  overflow-wrap: break-word;
+  width: 90%;
 }
 
 .response {
@@ -78,20 +80,28 @@ body {
  margin-top: 0px;
 }
 
-.clear-button-cont {
+.button-cont {
   width: 100%;
   text-align: right;
 }
 
-.clear-field-bttn {
-  background-color: #DE4841;
+.button {
   height: 22px;
   margin: 15px;
   color: white;
   font-size: 0.8em;
 }
 
-.clear-field-bttn:disabled {
+.clear-field-bttn {
+  background-color: #DE4841;
+}
+
+.favorite-button {
+  background-color: green;
+}
+
+.clear-field-bttn:disabled,
+.favorite-button:disabled {
   background-color: #D0CDCD;
 }
 
@@ -99,4 +109,26 @@ body {
   height: 333px;
   position: relative;
   top: 23px;
+}
+
+.favorites-section {
+  display: inline-block;
+  margin-left: 60px;
+  background-color: #E6ECF4;
+  padding: 20px;
+}
+
+.favorites-title {
+  font-family: 'Life Savers';
+  color: rgb(50 78 124);
+  font-size: 2em;
+  margin-top: 0px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.favorites-container {
+  height: 248px;
+  overflow-y: scroll;
+  width: 300px;
 }
